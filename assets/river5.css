@@ -1,7 +1,5 @@
-
-
 .river5feed{font: normal normal normal 1em Helvetica, Arial, sans-serif;max-width:640px;margin: auto;}
 .river5feed h4{border-bottom:solid 1px;}
-.river5feed  a{text-decoration:none !important;}
+.river5feed h4 a,.river5feed h4 a:visited;{text-decoration:none !important;}
 .river5feed h4 span{text-align:right;font-size: 10px;display:block;font-weight:normal;color:grey;}
 .river5feed h4 img{display:inline;}

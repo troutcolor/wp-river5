@@ -1,6 +1,7 @@
 
 
-.riverfeeds{font: normal normal normal 1em Helvetica, Arial, sans-serif;width:640px;margin: auto;}
-.riverfeeds h3{border-bottom:solid 1px;}
-.riverfeeds h3 a{text-decoration:none;color:darkgrey;}
-.riverfeeds h3 span{text-align:right;font-size: 10px;display:block;font-weight:normal;color:grey;}
+.river5feed{font: normal normal normal 1em Helvetica, Arial, sans-serif;max-width:640px;margin: auto;}
+.river5feed h4{border-bottom:solid 1px;}
+.river5feed  a{text-decoration:none !important;}
+.river5feed h4 span{text-align:right;font-size: 10px;display:block;font-weight:normal;color:grey;}
+.river5feed h4 img{display:inline;;}

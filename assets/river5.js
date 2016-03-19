@@ -1,9 +1,5 @@
-var onGetRiverStream = function(x) {
+var thefeedHTML = function(feedjson, tgt) {
 
-}
-
-var thefeedHTML = function(feedjson,tgt) {
- 
 	var thefeeds = "";
 	jQuery.ajax({
 		url: feedjson,
@@ -25,34 +21,25 @@ var thefeedHTML = function(feedjson,tgt) {
 					var itembody = item['body'];
 					thefeeds = thefeeds + "<h5><a target='new' href='" + itemlink + "'>" + itemtitle + "</a></h5><p>" + itembody + "</p>";
 
-
-
 				});
-
- 
 			}
 			tgt.html(thefeeds);
-			
-			
-
 		},
 		error: function(xhr, textStatus, errorThrown) {
 			console.log(errorThrown);
 		}
 	});
-
-return  (thefeeds);
+	return (thefeeds);
 }
 
 jQuery(document).ready(function() {
-		// Stuff to do as soon as the DOM is ready;
+	// Stuff to do as soon as the DOM is ready;
 
-		jQuery('.river5feed').each(function(index) {
+	jQuery('.river5feed').each(function(index) {
 
-				var thejsonurl = jQuery(this).attr('data-river5');
-				 var d=thefeedHTML(thejsonurl,jQuery(this));
-				//console.log(theHTML);
-				//jQuery(this).html = theHTML;
-				
-			});
-		});
+		var thejsonurl = jQuery(this).attr('data-river5');
+		var d = thefeedHTML(thejsonurl, jQuery(this));
+
+
+	});
+});

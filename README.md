@@ -7,6 +7,7 @@ This is a simple plugin for WordPress to display a river.
 
 ## Usage ##
 
-[river5 jsonurl]
+[river5 river5jsonurl="pathtojsonurl.jsjs"]
 
-
+eg:
+[river5 river5jsonurl="http://pi.johnj.info/rivers/Edublogs.js"]

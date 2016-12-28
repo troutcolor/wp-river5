@@ -11,3 +11,5 @@ This is a simple plugin for WordPress to display a river.
 
 eg:
 [river5 river5jsonurl="http://pi.johnj.info/rivers/Edublogs.js"]
+
+

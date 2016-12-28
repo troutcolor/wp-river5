@@ -16,9 +16,8 @@ function river5_shortcode_routine( $args ) {
 	$return = "";	
 	// pay attention john
 	$return= sprintf(
-		"<div  data-river5='%s' class='river5feed'  ><img src='".RIVER5_URL."assets/Ajax-loader.gif'></div>",
-		esc_url( $river5jsonurl ) 
-	);
+		"<div  data-river5='%s' class='river5feed'  ><img  src='".RIVER5_URL."assets/Ajax-loader.gif'></div>",
+		esc_url( $river5jsonurl ) );
 	//enqueue here so only add script & styles when needed
 	wp_enqueue_script( 'river5');	
 	wp_enqueue_style ( 'river5' );
